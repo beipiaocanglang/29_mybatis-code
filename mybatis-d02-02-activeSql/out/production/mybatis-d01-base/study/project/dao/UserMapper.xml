@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="study.project.dao.UserMapper">
+    <select id="findUserList" parameterType="queryVo" resultType="user">
+        <!--
+            问题1：
+                如果传值时sex的值是null或者空字符串，那么sql语句就会变成 SELECT * FROM user WHERE sex=null AND username LIKE '%yeying%'，查不到结果
+                所以要用if标签进行判断
+                <if></if>:判断标签
+                    test：判断条件(不需要写#{}/${}，直接对象.属性)
+            问题2：
+                如果仅仅是第二个条件满足，那么sql语句就会变成 SELECT * FROM user WHERE AND username LIKE '%yeying%',语法错误会报错
+                解决方式一：
+                    SELECT * FROM user WHERE 1=1
+                    <if test="user.sex!=null and user.sex!=''">
+                      and  sex=#{user.sex}
+                    </if>
+                    <if test="user.username!=null and user.username!=''">
+                      AND username LIKE '%${user.username}%'
+                    </if>
+                解决方式二：使用<where></where>标签
+                    作用：
+                       拼接sql语句，当if标签至少有一个满足条件时才会进行where拼接，如果条件都不满足则查询所有
+                       并且会自动去掉开头和结尾的 and、or
+        -->
+        SELECT * FROM user
+        <where>
+            <!--
+                include：引入sql片段
+                refid：关联sql片段的id
+            -->
+            <include refid="sqlMap"/>
+        </where>
+    </select>
+    <!--
+        最终要封装成是sql语句：
+            select * from user where id=10, or id=230, or id=231
+            select * from user wherr id in(10,230,231)
+    -->
+    <!--
+        select * from user where id=10, or id=230, or id=231
+    -->
+    <select id="findUserByOR" parameterType="queryVo" resultType="user">
+        select * from user
+        <!--
+            foreach：循环标签的讲解
+                collection:制定需要循环那一个集合参数；集合参数名称(就是再包装类中定义的集合参数)
+                item:每一次循环结果存储再item变量当中(相当于别名)
+                open:以什么开始,以（ 开始
+                separator:每一循环完成后以什么进行分割
+                close:以什么结束。以）结束
+        -->
+        <where>
+            <foreach collection="ids" item="id" open="(" separator="OR" close=")">
+                id=#{id}
+            </foreach>
+        </where>
+    </select>
+    <!--
+        select * from user wherr id in(10,230,231)
+    -->
+    <select id="findUserByIN" parameterType="queryVo" resultType="user">
+        select * from user
+        <where>
+            <!-- 写在这个可以，写在open中也行 -->
+            id in
+            <foreach collection="ids" item="id" open="(" separator="," close=")">
+                #{id}
+            </foreach>
+        </where>
+    </select>
+
+    <!--
+        sql片段：抽取公共的sql语句
+        id:sql片段的唯一标识，可以定义多个sql片段
+        在需要使用的位置使用include引入
+        <include refid="sqlMap"/>
+    -->
+    <sql id="sqlMap">
+        <if test="user.sex!=null and user.sex!=''">
+            and  sex=#{user.sex}
+        </if>
+        <if test="user.username!=null and user.username!=''">
+            AND username LIKE '%${user.username}%'
+        </if>
+    </sql>
+</mapper>

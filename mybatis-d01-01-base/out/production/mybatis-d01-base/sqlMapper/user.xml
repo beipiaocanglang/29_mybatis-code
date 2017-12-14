@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--
+    mapper标签是所有映射文件的开始标签，所有的sql都封装再mapper标签中
+        namespace：命名空间
+            作用：
+                1、唯一标识，标识一个映射文件，名称可以任意
+                2、再借口代理开发中命名空间有特殊含义，不能任意
+-->
+<mapper namespace="base">
+    <!--入门案例：查询所有-->
+    <select id="findAll" resultType="study.project.domain.User">
+        SELECT * FROM user
+    </select>
+    <!--
+        根据id查询
+        select:用来查询的标签、更新update、保存insert、删除delete
+            属性：
+                id：sql语句唯一标识，mybatis使用dom解析xml文件，把sql封装成Mappedstatement，id是Mappedstatement的唯一标识
+                parameterType：制定传递参数类型，可选配置，如果不配置，mybatis将会根据传递类型使用ParamenterHandler自动选择使用类型
+                resultType：制定返回值类型,无论返回值是集合还是对象，都是对象
+                #{}:用户获取参数值(一般情况下使用#{}，只用模糊查询时才使用${})
+                    1、参数是基本数据类型(int、long、String、double等等)：#{}括号里面可以是任意值
+                    2、参数是pojo类型：将会使用ognl表达式获取  #{}括号里面是ognl表达式(#{}括号中的单词必须和对象中的属性名一样)
+                    3、参数是字符类型：#{}获取值时会自动加引号
+    -->
+    <select id="findUserById" parameterType="java.lang.Integer" resultType="study.project.domain.User">
+      SELECT * FROM user WHERE id=#{id}
+    </select>
+    <!--
+        模糊查询：查询姓张的用户
+        其他同上
+        ${}:占位符：拼接sql (一般情况下使用#{}，只用模糊查询时才使用${})
+            1、参数是基本数据类型(int、long、String、double等等)：${}括号里面只能是value(只能写value这个单词，不能其他)
+            2、参数是pojo类型：将会使用ognl表达式获取  ${}括号里面是ognl表达式
+            3、无论参数是字符类型还是其他基本数据类型，${}都会原样拼接sql
+    -->
+    <select id="findUserByUsername" parameterType="java.lang.String" resultType="study.project.domain.User">
+        SELECT * FROM  user WHERE username LIKE '%${value}%'
+    </select>
+    <!--
+        插入一条数据
+        insert:插入标签
+        其他同上
+        保存pojo使用#{},ognl表达式(对象导航语言，对象.对象.属性)，
+        返回主键：见下面的两种方式
+            方式一：直接在insert标签使用
+                useGeneratedKeys：是否使用主键，取值：true：是、false：不使用(默认值)
+                keyProperty：指定主键名称
+
+                <insert id="insertUser" parameterType="study.project.domain.User" useGeneratedKeys="true" keyProperty="id">
+                    INSERT INTO user VALUES(#{id},#{username},#{birthday},#{sex},#{address})
+                </insert>
+
+            方式二：
+                <insert id="insertUser" parameterType="study.project.domain.User">
+                    /*
+                    selectKey:用户生成主键
+                    keyProperty：指定主键名称
+                    order：主键生成是在sql语句执行成功之后生成的所以是AFTER，
+                        注意：
+                            如果是UUID字符串作为主键，那么取值就应该是BEFORE，因为是在sql语句执行之前生成的，
+                            sql查询语句应该变成：SELECT UUID()
+                            返回值resultType应该是string
+                            取值根据主键生成策略而定
+                    resultType：制定主键类型
+                    */
+                <selectKey keyProperty="id" order="AFTER" resultType="int">
+                    SELECT LAST_INSERT_ID()
+                </selectKey>
+                INSERT INTO user VALUES(#{id},#{username},#{birthday},#{sex},#{address})
+            </insert>
+    -->
+    <insert id="insertUser" parameterType="study.project.domain.User" useGeneratedKeys="true" keyProperty="id">
+        INSERT INTO user VALUES(#{id},#{username},#{birthday},#{sex},#{address})
+    </insert>
+    <!--
+        根据id删除数据
+        delete:删除标签
+        其他同上
+    -->
+    <delete id="deleteUserById" parameterType="int">
+        DELETE FROM user WHERE id=#{id}
+    </delete>
+    <!--
+        根据id修改用户信息
+        update:更新标签
+        其他同上
+    -->
+    <update id="updateUserById" parameterType="study.project.domain.User">
+        UPDATE user SET username=#{username},birthday=#{birthday},sex=#{sex},address=#{address} WHERE id=#{id}
+    </update>
+</mapper>

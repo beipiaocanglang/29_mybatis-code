@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="study.project.dao.UserMapper">
+    <!--
+        传递基本类型、pojo类型、包装类类型、map类型
+        模拟查询条件较多时的查询
+        传递包装类对象
+        查询性别为nan的姓张的用户
+        parameterType：包装类对象的别名，使用ognl表达式获取参数值
+        resultType：指定返回值类型
+    -->
+    <select id="findUserList" parameterType="queryVo" resultType="user">
+        SELECT
+          *
+        FROM
+          user
+        WHERE
+          sex=#{user.sex}
+          AND
+          username LIKE '%${user.username}%'
+    </select>
+
+    <!--
+        需求：查询性别为nan的姓张的用户
+        传递参数map
+            parameterType:使用的是mybatis提供的TypeAliasRegistry类中的map定义的别名
+                使用#{}/${}接受参数时，括号里面是map的key
+    -->
+    <select id="findUserMap" parameterType="map" resultType="user">
+        SELECT
+          *
+        FROM
+          user
+        WHERE
+          sex=#{sex}
+          AND
+          username LIKE '%${username}%'
+    </select>
+
+    <!--
+        返回对象、返回集合 都是对象(上面已讲)
+        需求：查询性别为nan的姓张的用户的总记录数
+        返回int类型的数据
+    -->
+    <select id="findCountResultInt" parameterType="queryVo" resultType="int">
+        SELECT
+            COUNT(1)
+        FROM
+            user
+        WHERE
+          sex=#{user.sex}
+          AND
+          username LIKE '%${user.username}%'
+    </select>
+
+    <!--
+        解决：查询字段或者sql表中字段 和 pojo中的字段不一致导致映射不成功的问题 使用resultMap
+        resultMap：ba查询结果和pojo表中的字段一一映射
+            type：指定映射结果类型(pojo全类路径名称，可以使用别名)
+            id：映射resultMap的唯一标识，标识可以在mapper中定义多个resultMap
+    -->
+    <resultMap id="BaseResult" type="user">
+        <!--
+            result：查询字段和pojo属性一一映射标签
+                column：数据库中的字段或者别名
+                property：pojo中的字段名
+        -->
+        <result column="_username" property="username"/>
+        <result column="_address" property="address"/>
+    </resultMap>
+
+    <select id="findUserByAlias" resultMap="BaseResult">
+        select username _username,address _address FROM user
+    </select>
+</mapper>

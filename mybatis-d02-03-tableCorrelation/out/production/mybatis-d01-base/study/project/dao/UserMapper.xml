@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="study.project.dao.UserMapper">
+    <resultMap id="userListMap" type="user">
+        <id column="id" property="id"/>
+        <result column="username" property="username"/>
+        <result column="brithday" property="brithday"/>
+        <result column="sex" property="sex"/>
+        <result column="address" property="address"/>
+        <!--
+            collection:一对多的映射标签
+            property:标配时映射user对象中的那一个list属性：ordersList属性
+            ofType:指定ordersList集合中封装的属性类型：orders
+        -->
+        <collection property="ordersList" ofType="orders">
+            <id column="oid" property="id"/>
+            <result column="user_id" property="userId"/>
+            <result column="number" property="number"/>
+            <result column="createtime" property="createtime"/>
+            <result column="note" property="note"/>
+        </collection>
+    </resultMap>
+    <!--
+        查询user表，关联订单表 用户和订单是一对多关系
+        两张表都有id会存在冲突  需要定义别名(注意，映射字段也要使用别名)
+    -->
+    <select id="findUserAndOrders" resultMap="userListMap">
+        SELECT
+            user.*,
+            orders.id oid,
+            orders.user_id,
+            orders.number,
+            orders.createtime,
+            orders.note
+        FROM
+            user,
+            orders
+        WHERE
+            user.id=orders.user_id
+    </select>
+</mapper>

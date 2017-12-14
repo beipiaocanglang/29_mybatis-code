@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<!--mybatis的全局配置文件:数据源、事物、引入外部映射配置文件-->
+<configuration>
+    <properties resource="jdbc.properties"></properties>
+
+    <!--定义别名(整合spring后据不需要了)-->
+    <typeAliases>
+        <package name="study.project.domain"></package>
+    </typeAliases>
+
+    <!--mybatis环境：配置数据源、事物、多个环境-->
+    <environments default="development">
+        <!--environment：单个数据源、事物-->
+        <environment id="development">
+            <!--事物：mybatis底层封装的是JDBC，所以通过JDBC管理事物-->
+            <transactionManager type="JDBC"/>
+            <!--数据源：mybatis通过POOLED连接池管理数据源-->
+            <dataSource type="POOLED">
+                <property name="driver" value="${jdbc.driver}"/>
+                <property name="url" value="${jdbc.url}"/>
+                <property name="username" value="${jdbc.username}"/>
+                <property name="password" value="${jdbc.password}"/>
+            </dataSource>
+        </environment>
+    </environments>
+
+    <!--mappers：引入外部映射文件：可以引入多个-->
+    <mappers>
+        <package name="study.project.dao"/>
+    </mappers>
+</configuration>

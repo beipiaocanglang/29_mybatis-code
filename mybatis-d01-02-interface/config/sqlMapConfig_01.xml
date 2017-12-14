@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<!--mybatis的全局配置文件:数据源、事物、引入外部映射配置文件-->
+<configuration>
+
+    <!--
+        引入外部资源文件(整合spring后据不需要了)
+        resource：引用相对路径(项目中路径)
+        url: 引用绝对路径(从盘路径)
+    -->
+    <properties resource="jdbc.properties"></properties>
+
+    <!--设置一级缓存/二级缓存/ 后面会是有redis，所以这里就不需要了-->
+    <settings>
+        <setting name="" value=""/>
+    </settings>
+
+    <!--定义别名(整合spring后据不需要了)-->
+    <typeAliases>
+        <!--
+            方式一：定义单个别名
+                typeAlias：定义单个别名
+                type：制定给谁定义别名(可以给实体类定义别名。在mapper.xml配置文件中就可以直接使用别名，而不用使用实体类的全名了)
+                alias：别名的名称
+                <typeAlias type="study.project.domain.User" alias="user"></typeAlias>
+
+            方式二：批量定义别名
+                package批量定义别名
+                package扫描要定义别名的包路径，此包路径下的所有类将自动定义别名，别名的名称是类名 大小写均可
+                定义别名后，在mapper.xml配置文件中的parameterType和resultType取值就可以使用别名了。而不再需要类全名
+                <package name="study.project.domain"></package>
+
+            参数别名：
+                在mapper.xml配置文件中的parameterType取值可以直接使用别名，因为mybatis已经提供了对应的类，
+                parameterType的取值别名其实就是TypeAliasRegistry类中定义的map的key
+                org.apache.ibatis.type.TypeAliasRegistry
+        -->
+        <package name="study.project.domain"></package>
+    </typeAliases>
+
+    <!--
+        类型转换：数据库类型转换成java类型
+        不需要我们手动定义 mybatis提供了
+        详见：org.apache.ibatis.type.TypeHandlerRegistry
+    -->
+    <typeHandlers>
+        <!--
+            单个类型转换
+                javaType：java类型
+                jdbcType：jdbc类型
+        -->
+        <typeHandler handler="" javaType="" jdbcType=""></typeHandler>
+        <!--
+            批量类型转换
+                name：要转换类型的包，此包下所有相同的类型将自动转换
+        -->
+        <package name=""></package>
+    </typeHandlers>
+
+    <!--
+        创建对象时用的
+            在mapper.xml配置文件中resultType属性将从数据库中查询的结果封装成对象返回(mybatis会自动调用来创建)，不需要手动配置
+    -->
+    <objectFactory type=""></objectFactory>
+
+    <!--配置插件：例如分页插件-->
+    <plugins>
+        <plugin interceptor=""></plugin>
+    </plugins>
+
+    <!--mybatis环境：配置数据源、事物、多个环境-->
+    <environments default="development">
+        <!--environment：单个数据源、事物-->
+        <environment id="development">
+            <!--事物：mybatis底层封装的是JDBC，所以通过JDBC管理事物-->
+            <transactionManager type="JDBC"/>
+            <!--数据源：mybatis通过POOLED连接池管理数据源-->
+            <dataSource type="POOLED">
+                <property name="driver" value="${jdbc.driver}"/>
+                <property name="url" value="${jdbc.url}"/>
+                <property name="username" value="${jdbc.username}"/>
+                <property name="password" value="${jdbc.password}"/>
+            </dataSource>
+        </environment>
+    </environments>
+
+    <!--mappers：引入外部映射文件：可以引入多个-->
+    <mappers>
+        <!--第一种接口代理开发：mapper：引入单个映射文件 -->
+        <mapper resource="sqlMapper/user.xml"/>
+        <!--第二种接口代理开发(定义单个接口),需要满足接口代理开发规范：mapper.xml名称必须和接口名称相同，且再同一个目录下-->
+        <mapper class="study.project.dao.IUserDao"></mapper>
+        <!-- 第三种接口代理开发模式 需要满足接口代理开发规范-->
+        <!-- 批量扫描接口 -->
+        <package name="cn.itcast.dao"/>
+    </mappers>
+</configuration>

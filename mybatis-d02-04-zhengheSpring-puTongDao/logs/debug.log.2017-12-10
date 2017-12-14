@@ -1,0 +1,454 @@
+2017-12-10 17:52:58  [ main:1 ] - [ DEBUG ]  Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2017-12-10 17:52:58  [ main:20 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2017-12-10 17:52:58  [ main:20 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2017-12-10 17:52:58  [ main:21 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2017-12-10 17:52:58  [ main:21 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2017-12-10 17:52:58  [ main:72 ] - [ DEBUG ]  Opening JDBC Connection
+2017-12-10 17:52:58  [ main:276 ] - [ DEBUG ]  Created connection 1675763772.
+2017-12-10 17:52:58  [ main:276 ] - [ DEBUG ]  Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@63e2203c]
+2017-12-10 17:52:58  [ main:278 ] - [ DEBUG ]  ==>  Preparing: SELECT * FROM user 
+2017-12-10 17:52:58  [ main:311 ] - [ DEBUG ]  ==> Parameters: 
+2017-12-10 17:52:58  [ main:329 ] - [ DEBUG ]  <==      Total: 7
+2017-12-10 17:56:32  [ main:0 ] - [ DEBUG ]  Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2017-12-10 17:56:32  [ main:12 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2017-12-10 17:56:32  [ main:12 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2017-12-10 17:56:32  [ main:12 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2017-12-10 17:56:32  [ main:12 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2017-12-10 17:56:32  [ main:57 ] - [ DEBUG ]  Opening JDBC Connection
+2017-12-10 17:56:32  [ main:246 ] - [ DEBUG ]  Created connection 1675763772.
+2017-12-10 17:56:32  [ main:246 ] - [ DEBUG ]  Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@63e2203c]
+2017-12-10 17:56:32  [ main:249 ] - [ DEBUG ]  ==>  Preparing: SELECT * FROM user 
+2017-12-10 17:56:32  [ main:283 ] - [ DEBUG ]  ==> Parameters: 
+2017-12-10 17:56:32  [ main:309 ] - [ DEBUG ]  <==      Total: 7
+2017-12-10 17:56:55  [ main:0 ] - [ DEBUG ]  Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2017-12-10 17:56:55  [ main:12 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2017-12-10 17:56:55  [ main:12 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2017-12-10 17:56:55  [ main:12 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2017-12-10 17:56:55  [ main:12 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2017-12-10 17:56:55  [ main:58 ] - [ DEBUG ]  Opening JDBC Connection
+2017-12-10 17:56:55  [ main:225 ] - [ DEBUG ]  Created connection 1675763772.
+2017-12-10 17:56:55  [ main:226 ] - [ DEBUG ]  Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@63e2203c]
+2017-12-10 17:56:55  [ main:228 ] - [ DEBUG ]  ==>  Preparing: SELECT * FROM user 
+2017-12-10 17:56:55  [ main:255 ] - [ DEBUG ]  ==> Parameters: 
+2017-12-10 17:56:55  [ main:288 ] - [ DEBUG ]  <==      Total: 7
+2017-12-10 18:06:50  [ main:0 ] - [ DEBUG ]  Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2017-12-10 18:06:50  [ main:13 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2017-12-10 18:06:50  [ main:13 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2017-12-10 18:06:50  [ main:13 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2017-12-10 18:06:50  [ main:13 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2017-12-10 18:11:19  [ main:0 ] - [ DEBUG ]  Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2017-12-10 18:11:19  [ main:12 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2017-12-10 18:11:19  [ main:12 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2017-12-10 18:11:19  [ main:13 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2017-12-10 18:11:19  [ main:13 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2017-12-10 18:11:19  [ main:61 ] - [ DEBUG ]  Opening JDBC Connection
+2017-12-10 18:11:20  [ main:245 ] - [ DEBUG ]  Created connection 1270855946.
+2017-12-10 18:11:20  [ main:246 ] - [ DEBUG ]  Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@4bbfb90a]
+2017-12-10 18:11:20  [ main:248 ] - [ DEBUG ]  ==>  Preparing: SELECT * FROM user WHERE id=? 
+2017-12-10 18:11:38  [ main:0 ] - [ DEBUG ]  Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2017-12-10 18:11:38  [ main:12 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2017-12-10 18:11:38  [ main:12 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2017-12-10 18:11:38  [ main:12 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2017-12-10 18:11:38  [ main:13 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2017-12-10 18:11:38  [ main:60 ] - [ DEBUG ]  Opening JDBC Connection
+2017-12-10 18:11:38  [ main:238 ] - [ DEBUG ]  Created connection 1270855946.
+2017-12-10 18:11:38  [ main:238 ] - [ DEBUG ]  Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@4bbfb90a]
+2017-12-10 18:11:38  [ main:241 ] - [ DEBUG ]  ==>  Preparing: SELECT * FROM user WHERE id=? 
+2017-12-10 18:11:38  [ main:271 ] - [ DEBUG ]  ==> Parameters: 10(Integer)
+2017-12-10 18:11:39  [ main:302 ] - [ DEBUG ]  <==      Total: 1
+2017-12-10 18:48:46  [ main:0 ] - [ DEBUG ]  Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2017-12-10 18:48:46  [ main:14 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2017-12-10 18:48:46  [ main:15 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2017-12-10 18:48:46  [ main:15 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2017-12-10 18:48:46  [ main:16 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2017-12-10 18:48:46  [ main:94 ] - [ DEBUG ]  Opening JDBC Connection
+2017-12-10 18:48:46  [ main:292 ] - [ DEBUG ]  Created connection 1150538133.
+2017-12-10 18:48:46  [ main:293 ] - [ DEBUG ]  Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@4493d195]
+2017-12-10 18:48:46  [ main:295 ] - [ DEBUG ]  ==>  Preparing: SELECT * FROM user WHERE username LIKE '%张%' 
+2017-12-10 18:48:46  [ main:335 ] - [ DEBUG ]  ==> Parameters: 
+2017-12-10 18:48:46  [ main:357 ] - [ DEBUG ]  <==      Total: 3
+2017-12-10 19:04:47  [ main:0 ] - [ DEBUG ]  Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2017-12-10 19:04:47  [ main:17 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2017-12-10 19:04:47  [ main:17 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2017-12-10 19:04:47  [ main:17 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2017-12-10 19:04:47  [ main:18 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2017-12-10 19:04:47  [ main:85 ] - [ DEBUG ]  Opening JDBC Connection
+2017-12-10 19:04:47  [ main:276 ] - [ DEBUG ]  Created connection 817406040.
+2017-12-10 19:04:47  [ main:276 ] - [ DEBUG ]  Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@30b8a058]
+2017-12-10 19:04:47  [ main:278 ] - [ DEBUG ]  ==>  Preparing: INSERT INTO user VALUES (?,?,?,?,?) 
+2017-12-10 19:04:47  [ main:316 ] - [ DEBUG ]  ==> Parameters: null, yeying(String), 2017-12-10 19:04:47.389(Timestamp), nan(String), beijing(String)
+2017-12-10 19:06:28  [ main:0 ] - [ DEBUG ]  Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2017-12-10 19:06:28  [ main:12 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2017-12-10 19:06:28  [ main:13 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2017-12-10 19:06:28  [ main:13 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2017-12-10 19:06:28  [ main:13 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2017-12-10 19:06:28  [ main:64 ] - [ DEBUG ]  Opening JDBC Connection
+2017-12-10 19:06:28  [ main:238 ] - [ DEBUG ]  Created connection 817406040.
+2017-12-10 19:06:28  [ main:238 ] - [ DEBUG ]  Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@30b8a058]
+2017-12-10 19:06:28  [ main:241 ] - [ DEBUG ]  ==>  Preparing: INSERT INTO user VALUES (?,?,?,?,?) 
+2017-12-10 19:06:28  [ main:275 ] - [ DEBUG ]  ==> Parameters: null, yeying(String), 2017-12-10 19:06:28.336(Timestamp), nan(String), beijing(String)
+2017-12-10 19:06:28  [ main:276 ] - [ DEBUG ]  <==    Updates: 1
+2017-12-10 19:10:02  [ main:0 ] - [ DEBUG ]  Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2017-12-10 19:10:02  [ main:12 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2017-12-10 19:10:02  [ main:13 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2017-12-10 19:10:02  [ main:14 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2017-12-10 19:10:02  [ main:14 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2017-12-10 19:10:02  [ main:66 ] - [ DEBUG ]  Opening JDBC Connection
+2017-12-10 19:10:02  [ main:253 ] - [ DEBUG ]  Created connection 817406040.
+2017-12-10 19:10:02  [ main:253 ] - [ DEBUG ]  Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@30b8a058]
+2017-12-10 19:10:02  [ main:256 ] - [ DEBUG ]  ==>  Preparing: INSERT INTO user VALUES (?,?,?,?,?) 
+2017-12-10 19:10:02  [ main:293 ] - [ DEBUG ]  ==> Parameters: 2(Integer), yeying(String), 2017-12-10 19:10:02.21(Timestamp), nan(String), beijing(String)
+2017-12-10 19:10:02  [ main:294 ] - [ DEBUG ]  <==    Updates: 1
+2017-12-10 19:10:35  [ main:0 ] - [ DEBUG ]  Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2017-12-10 19:10:35  [ main:12 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2017-12-10 19:10:35  [ main:13 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2017-12-10 19:10:35  [ main:13 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2017-12-10 19:10:35  [ main:13 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2017-12-10 19:10:36  [ main:67 ] - [ DEBUG ]  Opening JDBC Connection
+2017-12-10 19:10:36  [ main:258 ] - [ DEBUG ]  Created connection 817406040.
+2017-12-10 19:10:36  [ main:258 ] - [ DEBUG ]  Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@30b8a058]
+2017-12-10 19:10:36  [ main:260 ] - [ DEBUG ]  ==>  Preparing: INSERT INTO user VALUES (?,?,?,?,?) 
+2017-12-10 19:10:36  [ main:295 ] - [ DEBUG ]  ==> Parameters: 27(Integer), yeying(String), 2017-12-10 19:10:36.0(Timestamp), nan(String), beijing(String)
+2017-12-10 19:10:36  [ main:295 ] - [ DEBUG ]  <==    Updates: 1
+2017-12-10 19:11:18  [ main:0 ] - [ DEBUG ]  Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2017-12-10 19:11:18  [ main:12 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2017-12-10 19:11:18  [ main:12 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2017-12-10 19:11:18  [ main:12 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2017-12-10 19:11:18  [ main:12 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2017-12-10 19:11:18  [ main:61 ] - [ DEBUG ]  Opening JDBC Connection
+2017-12-10 19:11:18  [ main:245 ] - [ DEBUG ]  Created connection 817406040.
+2017-12-10 19:11:18  [ main:245 ] - [ DEBUG ]  Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@30b8a058]
+2017-12-10 19:11:18  [ main:247 ] - [ DEBUG ]  ==>  Preparing: INSERT INTO user VALUES(?,?,?,?,?) 
+2017-12-10 19:11:18  [ main:283 ] - [ DEBUG ]  ==> Parameters: 27(Integer), yeying(String), 2017-12-10 19:11:18.152(Timestamp), nan(String), beijing(String)
+2017-12-10 19:11:18  [ main:291 ] - [ DEBUG ]  <==    Updates: 1
+2017-12-10 19:11:42  [ main:0 ] - [ DEBUG ]  Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2017-12-10 19:11:42  [ main:15 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2017-12-10 19:11:42  [ main:15 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2017-12-10 19:11:42  [ main:15 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2017-12-10 19:11:42  [ main:15 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2017-12-10 19:11:42  [ main:70 ] - [ DEBUG ]  Opening JDBC Connection
+2017-12-10 19:11:42  [ main:264 ] - [ DEBUG ]  Created connection 817406040.
+2017-12-10 19:11:42  [ main:265 ] - [ DEBUG ]  Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@30b8a058]
+2017-12-10 19:11:42  [ main:267 ] - [ DEBUG ]  ==>  Preparing: INSERT INTO user VALUES(?,?,?,?,?) 
+2017-12-10 19:11:43  [ main:304 ] - [ DEBUG ]  ==> Parameters: 227(Integer), yeying(String), 2017-12-10 19:11:42.781(Timestamp), nan(String), beijing(String)
+2017-12-10 19:11:43  [ main:305 ] - [ DEBUG ]  <==    Updates: 1
+2017-12-10 19:13:04  [ main:0 ] - [ DEBUG ]  Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2017-12-10 19:13:04  [ main:14 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2017-12-10 19:13:04  [ main:15 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2017-12-10 19:13:04  [ main:15 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2017-12-10 19:13:04  [ main:15 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2017-12-10 19:13:05  [ main:65 ] - [ DEBUG ]  Opening JDBC Connection
+2017-12-10 19:13:05  [ main:243 ] - [ DEBUG ]  Created connection 817406040.
+2017-12-10 19:13:05  [ main:243 ] - [ DEBUG ]  Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@30b8a058]
+2017-12-10 19:13:05  [ main:245 ] - [ DEBUG ]  ==>  Preparing: INSERT INTO user VALUES(?,?,?,?) 
+2017-12-10 19:13:05  [ main:282 ] - [ DEBUG ]  ==> Parameters: yeying(String), 2017-12-10 19:13:05.016(Timestamp), nan(String), beijing(String)
+2017-12-10 19:13:21  [ main:0 ] - [ DEBUG ]  Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2017-12-10 19:13:21  [ main:14 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2017-12-10 19:13:21  [ main:14 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2017-12-10 19:13:21  [ main:14 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2017-12-10 19:13:21  [ main:15 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2017-12-10 19:13:21  [ main:64 ] - [ DEBUG ]  Opening JDBC Connection
+2017-12-10 19:13:21  [ main:244 ] - [ DEBUG ]  Created connection 817406040.
+2017-12-10 19:13:21  [ main:244 ] - [ DEBUG ]  Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@30b8a058]
+2017-12-10 19:13:21  [ main:246 ] - [ DEBUG ]  ==>  Preparing: INSERT INTO user VALUES(?,?,?,?) 
+2017-12-10 19:13:21  [ main:281 ] - [ DEBUG ]  ==> Parameters: yeying(String), 2017-12-10 19:13:21.216(Timestamp), nan(String), beijing(String)
+2017-12-10 19:13:42  [ main:0 ] - [ DEBUG ]  Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2017-12-10 19:13:42  [ main:11 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2017-12-10 19:13:42  [ main:12 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2017-12-10 19:13:42  [ main:12 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2017-12-10 19:13:42  [ main:12 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2017-12-10 19:13:42  [ main:60 ] - [ DEBUG ]  Opening JDBC Connection
+2017-12-10 19:13:43  [ main:239 ] - [ DEBUG ]  Created connection 817406040.
+2017-12-10 19:13:43  [ main:240 ] - [ DEBUG ]  Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@30b8a058]
+2017-12-10 19:13:43  [ main:242 ] - [ DEBUG ]  ==>  Preparing: INSERT INTO user VALUES(?,?,?,?,?) 
+2017-12-10 19:13:43  [ main:278 ] - [ DEBUG ]  ==> Parameters: null, yeying(String), 2017-12-10 19:13:42.871(Timestamp), nan(String), beijing(String)
+2017-12-10 19:13:43  [ main:279 ] - [ DEBUG ]  <==    Updates: 1
+2017-12-10 19:15:13  [ main:0 ] - [ DEBUG ]  Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2017-12-10 19:15:13  [ main:14 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2017-12-10 19:15:13  [ main:14 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2017-12-10 19:15:13  [ main:14 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2017-12-10 19:15:13  [ main:15 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2017-12-10 19:15:13  [ main:66 ] - [ DEBUG ]  Opening JDBC Connection
+2017-12-10 19:15:13  [ main:254 ] - [ DEBUG ]  Created connection 817406040.
+2017-12-10 19:15:13  [ main:254 ] - [ DEBUG ]  Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@30b8a058]
+2017-12-10 19:15:13  [ main:256 ] - [ DEBUG ]  ==>  Preparing: INSERT INTO user VALUES(?,?,?,?,?) 
+2017-12-10 19:15:13  [ main:293 ] - [ DEBUG ]  ==> Parameters: null, yeying(String), 2017-12-10 19:15:13.099(Timestamp), nan(String), beijing(String)
+2017-12-10 19:15:13  [ main:294 ] - [ DEBUG ]  <==    Updates: 1
+2017-12-10 19:15:13  [ main:295 ] - [ DEBUG ]  Committing JDBC Connection [com.mysql.jdbc.JDBC4Connection@30b8a058]
+2017-12-10 19:15:28  [ main:0 ] - [ DEBUG ]  Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2017-12-10 19:15:28  [ main:15 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2017-12-10 19:15:28  [ main:15 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2017-12-10 19:15:28  [ main:16 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2017-12-10 19:15:28  [ main:16 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2017-12-10 19:15:28  [ main:66 ] - [ DEBUG ]  Opening JDBC Connection
+2017-12-10 19:15:28  [ main:250 ] - [ DEBUG ]  Created connection 817406040.
+2017-12-10 19:15:28  [ main:251 ] - [ DEBUG ]  Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@30b8a058]
+2017-12-10 19:15:28  [ main:252 ] - [ DEBUG ]  ==>  Preparing: INSERT INTO user VALUES(?,?,?,?,?) 
+2017-12-10 19:15:28  [ main:300 ] - [ DEBUG ]  ==> Parameters: null, yeying(String), 2017-12-10 19:15:28.232(Timestamp), nan(String), beijing(String)
+2017-12-10 19:15:28  [ main:301 ] - [ DEBUG ]  <==    Updates: 1
+2017-12-10 19:15:28  [ main:302 ] - [ DEBUG ]  Committing JDBC Connection [com.mysql.jdbc.JDBC4Connection@30b8a058]
+2017-12-10 19:21:59  [ main:0 ] - [ DEBUG ]  Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2017-12-10 19:21:59  [ main:12 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2017-12-10 19:21:59  [ main:12 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2017-12-10 19:21:59  [ main:12 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2017-12-10 19:21:59  [ main:12 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2017-12-10 19:21:59  [ main:62 ] - [ DEBUG ]  Opening JDBC Connection
+2017-12-10 19:21:59  [ main:249 ] - [ DEBUG ]  Created connection 1270855946.
+2017-12-10 19:21:59  [ main:250 ] - [ DEBUG ]  Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@4bbfb90a]
+2017-12-10 19:21:59  [ main:252 ] - [ DEBUG ]  ==>  Preparing: INSERT INTO user VALUES(?,?,?,?,?) 
+2017-12-10 19:21:59  [ main:288 ] - [ DEBUG ]  ==> Parameters: null, yeying(String), 2017-12-10 19:21:59.616(Timestamp), nan(String), beijing(String)
+2017-12-10 19:21:59  [ main:297 ] - [ DEBUG ]  <==    Updates: 1
+2017-12-10 19:21:59  [ main:299 ] - [ DEBUG ]  Committing JDBC Connection [com.mysql.jdbc.JDBC4Connection@4bbfb90a]
+2017-12-10 19:26:00  [ main:0 ] - [ DEBUG ]  Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2017-12-10 19:26:00  [ main:13 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2017-12-10 19:26:00  [ main:14 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2017-12-10 19:26:00  [ main:14 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2017-12-10 19:26:00  [ main:14 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2017-12-10 19:26:00  [ main:67 ] - [ DEBUG ]  Opening JDBC Connection
+2017-12-10 19:26:01  [ main:256 ] - [ DEBUG ]  Created connection 1270855946.
+2017-12-10 19:26:01  [ main:256 ] - [ DEBUG ]  Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@4bbfb90a]
+2017-12-10 19:26:01  [ main:258 ] - [ DEBUG ]  ==>  Preparing: INSERT INTO user VALUES(?,?,?,?,?) 
+2017-12-10 19:26:01  [ main:295 ] - [ DEBUG ]  ==> Parameters: null, yeying(String), 2017-12-10 19:26:00.928(Timestamp), nan(String), beijing(String)
+2017-12-10 19:26:01  [ main:295 ] - [ DEBUG ]  <==    Updates: 1
+2017-12-10 19:26:01  [ main:297 ] - [ DEBUG ]  ==>  Preparing: 
+2017-12-10 19:26:01  [ main:298 ] - [ DEBUG ]  ==> Parameters: 
+2017-12-10 19:27:41  [ main:0 ] - [ DEBUG ]  Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2017-12-10 19:27:41  [ main:14 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2017-12-10 19:27:41  [ main:14 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2017-12-10 19:27:41  [ main:14 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2017-12-10 19:27:41  [ main:15 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2017-12-10 19:27:41  [ main:69 ] - [ DEBUG ]  Opening JDBC Connection
+2017-12-10 19:27:41  [ main:254 ] - [ DEBUG ]  Created connection 1270855946.
+2017-12-10 19:27:41  [ main:254 ] - [ DEBUG ]  Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@4bbfb90a]
+2017-12-10 19:27:41  [ main:256 ] - [ DEBUG ]  ==>  Preparing: INSERT INTO user VALUES(?,?,?,?,?) 
+2017-12-10 19:27:41  [ main:294 ] - [ DEBUG ]  ==> Parameters: null, yeying(String), 2017-12-10 19:27:41.645(Timestamp), nan(String), beijing(String)
+2017-12-10 19:27:41  [ main:294 ] - [ DEBUG ]  <==    Updates: 1
+2017-12-10 19:27:41  [ main:296 ] - [ DEBUG ]  ==>  Preparing: SELECT LAST_INSERT_ID() 
+2017-12-10 19:27:41  [ main:296 ] - [ DEBUG ]  ==> Parameters: 
+2017-12-10 19:27:41  [ main:309 ] - [ DEBUG ]  <==      Total: 1
+2017-12-10 19:27:41  [ main:311 ] - [ DEBUG ]  Committing JDBC Connection [com.mysql.jdbc.JDBC4Connection@4bbfb90a]
+2017-12-10 19:46:21  [ main:0 ] - [ DEBUG ]  Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2017-12-10 19:46:21  [ main:14 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2017-12-10 19:46:21  [ main:14 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2017-12-10 19:46:21  [ main:15 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2017-12-10 19:46:21  [ main:15 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2017-12-10 19:46:21  [ main:67 ] - [ DEBUG ]  Opening JDBC Connection
+2017-12-10 19:46:21  [ main:255 ] - [ DEBUG ]  Created connection 1270855946.
+2017-12-10 19:46:21  [ main:255 ] - [ DEBUG ]  Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@4bbfb90a]
+2017-12-10 19:46:21  [ main:258 ] - [ DEBUG ]  ==>  Preparing: DELETE FROM user WHERE id=? 
+2017-12-10 19:46:21  [ main:285 ] - [ DEBUG ]  ==> Parameters: 233(Integer)
+2017-12-10 19:46:21  [ main:295 ] - [ DEBUG ]  <==    Updates: 1
+2017-12-10 19:46:21  [ main:295 ] - [ DEBUG ]  Committing JDBC Connection [com.mysql.jdbc.JDBC4Connection@4bbfb90a]
+2017-12-10 19:53:04  [ main:0 ] - [ DEBUG ]  Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2017-12-10 19:53:04  [ main:12 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2017-12-10 19:53:04  [ main:12 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2017-12-10 19:53:04  [ main:13 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2017-12-10 19:53:04  [ main:13 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2017-12-10 19:53:04  [ main:63 ] - [ DEBUG ]  Opening JDBC Connection
+2017-12-10 19:53:04  [ main:237 ] - [ DEBUG ]  Created connection 1270855946.
+2017-12-10 19:53:04  [ main:238 ] - [ DEBUG ]  Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@4bbfb90a]
+2017-12-10 19:53:04  [ main:239 ] - [ DEBUG ]  ==>  Preparing: UPDATE user SET username=-?,birthday=-?,sex=-?,address=-? WHERE id=? 
+2017-12-10 19:53:04  [ main:277 ] - [ DEBUG ]  ==> Parameters: yeying(String), 2017-12-10 19:53:04.369(Timestamp), nan(String), beijing+shanghai(String), 231(Integer)
+2017-12-10 19:54:03  [ main:0 ] - [ DEBUG ]  Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2017-12-10 19:54:03  [ main:12 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2017-12-10 19:54:03  [ main:12 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2017-12-10 19:54:03  [ main:12 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2017-12-10 19:54:03  [ main:12 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2017-12-10 19:54:03  [ main:68 ] - [ DEBUG ]  Opening JDBC Connection
+2017-12-10 19:54:04  [ main:282 ] - [ DEBUG ]  Created connection 1270855946.
+2017-12-10 19:54:04  [ main:282 ] - [ DEBUG ]  Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@4bbfb90a]
+2017-12-10 19:54:04  [ main:283 ] - [ DEBUG ]  ==>  Preparing: UPDATE user SET username=?,birthday=-?,sex=-?,address=-? WHERE id=? 
+2017-12-10 19:54:04  [ main:312 ] - [ DEBUG ]  ==> Parameters: yeying(String), 2017-12-10 19:54:03.877(Timestamp), nan(String), beijing+shanghai(String), 231(Integer)
+2017-12-10 19:54:25  [ main:0 ] - [ DEBUG ]  Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2017-12-10 19:54:25  [ main:14 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2017-12-10 19:54:25  [ main:14 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2017-12-10 19:54:25  [ main:14 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2017-12-10 19:54:25  [ main:14 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2017-12-10 19:54:25  [ main:73 ] - [ DEBUG ]  Opening JDBC Connection
+2017-12-10 19:54:26  [ main:251 ] - [ DEBUG ]  Created connection 1270855946.
+2017-12-10 19:54:26  [ main:252 ] - [ DEBUG ]  Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@4bbfb90a]
+2017-12-10 19:54:26  [ main:253 ] - [ DEBUG ]  ==>  Preparing: UPDATE user SET username=?,birthday=?,sex=?,address=? WHERE id=? 
+2017-12-10 19:54:26  [ main:291 ] - [ DEBUG ]  ==> Parameters: yeying(String), 2017-12-10 19:54:25.839(Timestamp), nan(String), beijing+shanghai(String), 231(Integer)
+2017-12-10 19:54:26  [ main:293 ] - [ DEBUG ]  <==    Updates: 1
+2017-12-10 19:54:26  [ main:293 ] - [ DEBUG ]  Committing JDBC Connection [com.mysql.jdbc.JDBC4Connection@4bbfb90a]
+2017-12-10 21:14:32  [ main:0 ] - [ DEBUG ]  Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2017-12-10 21:14:32  [ main:14 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2017-12-10 21:14:32  [ main:15 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2017-12-10 21:14:32  [ main:15 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2017-12-10 21:14:32  [ main:15 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2017-12-10 21:14:32  [ main:73 ] - [ DEBUG ]  Opening JDBC Connection
+2017-12-10 21:14:32  [ main:281 ] - [ DEBUG ]  Created connection 1730173572.
+2017-12-10 21:14:32  [ main:282 ] - [ DEBUG ]  Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@67205a84]
+2017-12-10 21:14:32  [ main:284 ] - [ DEBUG ]  ==>  Preparing: SELECT * FROM user 
+2017-12-10 21:14:32  [ main:320 ] - [ DEBUG ]  ==> Parameters: 
+2017-12-10 21:14:33  [ main:346 ] - [ DEBUG ]  <==      Total: 10
+2017-12-10 21:14:33  [ main:351 ] - [ DEBUG ]  Opening JDBC Connection
+2017-12-10 21:14:33  [ main:360 ] - [ DEBUG ]  Created connection 1791868405.
+2017-12-10 21:14:33  [ main:360 ] - [ DEBUG ]  Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@6acdbdf5]
+2017-12-10 21:14:33  [ main:361 ] - [ DEBUG ]  ==>  Preparing: SELECT * FROM user WHERE id=? 
+2017-12-10 21:14:33  [ main:362 ] - [ DEBUG ]  ==> Parameters: 231(Integer)
+2017-12-10 21:14:33  [ main:365 ] - [ DEBUG ]  <==      Total: 1
+2017-12-10 21:43:17  [ main:0 ] - [ DEBUG ]  Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2017-12-10 21:43:17  [ main:18 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2017-12-10 21:43:17  [ main:18 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2017-12-10 21:43:17  [ main:18 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2017-12-10 21:43:17  [ main:19 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2017-12-10 21:43:17  [ main:115 ] - [ DEBUG ]  Opening JDBC Connection
+2017-12-10 21:43:18  [ main:490 ] - [ DEBUG ]  Created connection 1260134048.
+2017-12-10 21:43:18  [ main:491 ] - [ DEBUG ]  Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@4b1c1ea0]
+2017-12-10 21:43:18  [ main:493 ] - [ DEBUG ]  ==>  Preparing: SELECT * FROM user 
+2017-12-10 21:43:18  [ main:528 ] - [ DEBUG ]  ==> Parameters: 
+2017-12-10 21:43:18  [ main:550 ] - [ DEBUG ]  <==      Total: 10
+2017-12-10 21:43:18  [ main:555 ] - [ DEBUG ]  ==>  Preparing: SELECT * FROM user WHERE id=? 
+2017-12-10 21:43:18  [ main:555 ] - [ DEBUG ]  ==> Parameters: 231(Integer)
+2017-12-10 21:43:18  [ main:556 ] - [ DEBUG ]  <==      Total: 1
+2017-12-10 23:18:11  [ main:0 ] - [ DEBUG ]  Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2017-12-10 23:18:11  [ main:13 ] - [ DEBUG ]  Class not found: org.jboss.vfs.VFS
+2017-12-10 23:18:11  [ main:13 ] - [ DEBUG ]  JBoss 6 VFS API is not available in this environment.
+2017-12-10 23:18:11  [ main:15 ] - [ DEBUG ]  Class not found: org.jboss.vfs.VirtualFile
+2017-12-10 23:18:11  [ main:16 ] - [ DEBUG ]  VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2017-12-10 23:18:11  [ main:17 ] - [ DEBUG ]  Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2017-12-10 23:18:11  [ main:18 ] - [ DEBUG ]  Find JAR URL: file:/D:/JAVA/ReStudy/JAVAEE-ReStudy/Study/frame/mybatis/mybatis-d02-01-param/out/production/mybatis-d01-base/study/project/domain
+2017-12-10 23:18:11  [ main:19 ] - [ DEBUG ]  Not a JAR: file:/D:/JAVA/ReStudy/JAVAEE-ReStudy/Study/frame/mybatis/mybatis-d02-01-param/out/production/mybatis-d01-base/study/project/domain
+2017-12-10 23:18:11  [ main:80 ] - [ DEBUG ]  Reader entry: User.class
+2017-12-10 23:18:11  [ main:81 ] - [ DEBUG ]  Listing file:/D:/JAVA/ReStudy/JAVAEE-ReStudy/Study/frame/mybatis/mybatis-d02-01-param/out/production/mybatis-d01-base/study/project/domain
+2017-12-10 23:18:11  [ main:81 ] - [ DEBUG ]  Find JAR URL: file:/D:/JAVA/ReStudy/JAVAEE-ReStudy/Study/frame/mybatis/mybatis-d02-01-param/out/production/mybatis-d01-base/study/project/domain/User.class
+2017-12-10 23:18:11  [ main:82 ] - [ DEBUG ]  Not a JAR: file:/D:/JAVA/ReStudy/JAVAEE-ReStudy/Study/frame/mybatis/mybatis-d02-01-param/out/production/mybatis-d01-base/study/project/domain/User.class
+2017-12-10 23:18:11  [ main:83 ] - [ DEBUG ]  Reader entry: ����   4 L
+2017-12-10 23:18:11  [ main:84 ] - [ DEBUG ]  Checking to see if class study.project.domain.User matches criteria [is assignable to Object]
+2017-12-10 23:18:11  [ main:120 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2017-12-10 23:18:11  [ main:120 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2017-12-10 23:18:11  [ main:122 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2017-12-10 23:18:11  [ main:123 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2017-12-10 23:18:11  [ main:126 ] - [ DEBUG ]  Find JAR URL: file:/D:/JAVA/ReStudy/JAVAEE-ReStudy/Study/frame/mybatis/mybatis-d02-01-param/out/production/mybatis-d01-base/study/project/dao
+2017-12-10 23:18:11  [ main:126 ] - [ DEBUG ]  Not a JAR: file:/D:/JAVA/ReStudy/JAVAEE-ReStudy/Study/frame/mybatis/mybatis-d02-01-param/out/production/mybatis-d01-base/study/project/dao
+2017-12-10 23:18:11  [ main:130 ] - [ DEBUG ]  Reader entry: UserMapper.class
+2017-12-10 23:18:11  [ main:131 ] - [ DEBUG ]  Reader entry: UserMapper.xml
+2017-12-10 23:18:11  [ main:131 ] - [ DEBUG ]  Listing file:/D:/JAVA/ReStudy/JAVAEE-ReStudy/Study/frame/mybatis/mybatis-d02-01-param/out/production/mybatis-d01-base/study/project/dao
+2017-12-10 23:18:11  [ main:131 ] - [ DEBUG ]  Find JAR URL: file:/D:/JAVA/ReStudy/JAVAEE-ReStudy/Study/frame/mybatis/mybatis-d02-01-param/out/production/mybatis-d01-base/study/project/dao/UserMapper.class
+2017-12-10 23:18:11  [ main:132 ] - [ DEBUG ]  Not a JAR: file:/D:/JAVA/ReStudy/JAVAEE-ReStudy/Study/frame/mybatis/mybatis-d02-01-param/out/production/mybatis-d01-base/study/project/dao/UserMapper.class
+2017-12-10 23:18:11  [ main:133 ] - [ DEBUG ]  Reader entry: ����   4 
+2017-12-10 23:18:11  [ main:133 ] - [ DEBUG ]  Find JAR URL: file:/D:/JAVA/ReStudy/JAVAEE-ReStudy/Study/frame/mybatis/mybatis-d02-01-param/out/production/mybatis-d01-base/study/project/dao/UserMapper.xml
+2017-12-10 23:18:11  [ main:134 ] - [ DEBUG ]  Not a JAR: file:/D:/JAVA/ReStudy/JAVAEE-ReStudy/Study/frame/mybatis/mybatis-d02-01-param/out/production/mybatis-d01-base/study/project/dao/UserMapper.xml
+2017-12-10 23:18:11  [ main:135 ] - [ DEBUG ]  Reader entry: <?xml version="1.0" encoding="UTF-8" ?>
+2017-12-10 23:18:11  [ main:135 ] - [ DEBUG ]  Checking to see if class study.project.dao.UserMapper matches criteria [is assignable to Object]
+2017-12-10 23:18:11  [ main:246 ] - [ DEBUG ]  Opening JDBC Connection
+2017-12-10 23:18:12  [ main:584 ] - [ DEBUG ]  Created connection 885851948.
+2017-12-10 23:18:12  [ main:585 ] - [ DEBUG ]  Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@34cd072c]
+2017-12-10 23:18:12  [ main:589 ] - [ DEBUG ]  ==>  Preparing: SELECT * FROM user 
+2017-12-10 23:18:12  [ main:638 ] - [ DEBUG ]  ==> Parameters: 
+2017-12-10 23:18:12  [ main:683 ] - [ DEBUG ]  <==      Total: 10
+2017-12-10 23:18:12  [ main:691 ] - [ DEBUG ]  ==>  Preparing: SELECT * FROM user WHERE id=? 
+2017-12-10 23:18:12  [ main:692 ] - [ DEBUG ]  ==> Parameters: 231(Integer)
+2017-12-10 23:18:12  [ main:693 ] - [ DEBUG ]  <==      Total: 1
+2017-12-10 23:45:00  [ main:0 ] - [ DEBUG ]  Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2017-12-10 23:45:00  [ main:6 ] - [ DEBUG ]  Class not found: org.jboss.vfs.VFS
+2017-12-10 23:45:00  [ main:6 ] - [ DEBUG ]  JBoss 6 VFS API is not available in this environment.
+2017-12-10 23:45:00  [ main:7 ] - [ DEBUG ]  Class not found: org.jboss.vfs.VirtualFile
+2017-12-10 23:45:00  [ main:7 ] - [ DEBUG ]  VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2017-12-10 23:45:00  [ main:8 ] - [ DEBUG ]  Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2017-12-10 23:45:00  [ main:8 ] - [ DEBUG ]  Find JAR URL: file:/D:/JAVA/ReStudy/JAVAEE-ReStudy/Study/frame/mybatis/mybatis-d02-01-param/out/production/mybatis-d01-base/study/project/domain
+2017-12-10 23:45:00  [ main:9 ] - [ DEBUG ]  Not a JAR: file:/D:/JAVA/ReStudy/JAVAEE-ReStudy/Study/frame/mybatis/mybatis-d02-01-param/out/production/mybatis-d01-base/study/project/domain
+2017-12-10 23:45:00  [ main:40 ] - [ DEBUG ]  Reader entry: QueryVo.class
+2017-12-10 23:45:00  [ main:40 ] - [ DEBUG ]  Reader entry: User.class
+2017-12-10 23:45:00  [ main:40 ] - [ DEBUG ]  Listing file:/D:/JAVA/ReStudy/JAVAEE-ReStudy/Study/frame/mybatis/mybatis-d02-01-param/out/production/mybatis-d01-base/study/project/domain
+2017-12-10 23:45:00  [ main:41 ] - [ DEBUG ]  Find JAR URL: file:/D:/JAVA/ReStudy/JAVAEE-ReStudy/Study/frame/mybatis/mybatis-d02-01-param/out/production/mybatis-d01-base/study/project/domain/QueryVo.class
+2017-12-10 23:45:00  [ main:41 ] - [ DEBUG ]  Not a JAR: file:/D:/JAVA/ReStudy/JAVAEE-ReStudy/Study/frame/mybatis/mybatis-d02-01-param/out/production/mybatis-d01-base/study/project/domain/QueryVo.class
+2017-12-10 23:45:00  [ main:42 ] - [ DEBUG ]  Reader entry: ����   4 
+2017-12-10 23:45:00  [ main:43 ] - [ DEBUG ]  Find JAR URL: file:/D:/JAVA/ReStudy/JAVAEE-ReStudy/Study/frame/mybatis/mybatis-d02-01-param/out/production/mybatis-d01-base/study/project/domain/User.class
+2017-12-10 23:45:00  [ main:43 ] - [ DEBUG ]  Not a JAR: file:/D:/JAVA/ReStudy/JAVAEE-ReStudy/Study/frame/mybatis/mybatis-d02-01-param/out/production/mybatis-d01-base/study/project/domain/User.class
+2017-12-10 23:45:00  [ main:45 ] - [ DEBUG ]  Reader entry: ����   4 L
+2017-12-10 23:45:00  [ main:46 ] - [ DEBUG ]  Checking to see if class study.project.domain.QueryVo matches criteria [is assignable to Object]
+2017-12-10 23:45:00  [ main:46 ] - [ DEBUG ]  Checking to see if class study.project.domain.User matches criteria [is assignable to Object]
+2017-12-10 23:45:00  [ main:64 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2017-12-10 23:45:00  [ main:64 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2017-12-10 23:45:00  [ main:64 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2017-12-10 23:45:00  [ main:65 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2017-12-10 23:45:00  [ main:66 ] - [ DEBUG ]  Find JAR URL: file:/D:/JAVA/ReStudy/JAVAEE-ReStudy/Study/frame/mybatis/mybatis-d02-01-param/out/production/mybatis-d01-base/study/project/dao
+2017-12-10 23:45:00  [ main:67 ] - [ DEBUG ]  Not a JAR: file:/D:/JAVA/ReStudy/JAVAEE-ReStudy/Study/frame/mybatis/mybatis-d02-01-param/out/production/mybatis-d01-base/study/project/dao
+2017-12-10 23:45:00  [ main:67 ] - [ DEBUG ]  Reader entry: UserMapper.class
+2017-12-10 23:45:00  [ main:68 ] - [ DEBUG ]  Reader entry: UserMapper.xml
+2017-12-10 23:45:00  [ main:68 ] - [ DEBUG ]  Listing file:/D:/JAVA/ReStudy/JAVAEE-ReStudy/Study/frame/mybatis/mybatis-d02-01-param/out/production/mybatis-d01-base/study/project/dao
+2017-12-10 23:45:00  [ main:68 ] - [ DEBUG ]  Find JAR URL: file:/D:/JAVA/ReStudy/JAVAEE-ReStudy/Study/frame/mybatis/mybatis-d02-01-param/out/production/mybatis-d01-base/study/project/dao/UserMapper.class
+2017-12-10 23:45:00  [ main:68 ] - [ DEBUG ]  Not a JAR: file:/D:/JAVA/ReStudy/JAVAEE-ReStudy/Study/frame/mybatis/mybatis-d02-01-param/out/production/mybatis-d01-base/study/project/dao/UserMapper.class
+2017-12-10 23:45:00  [ main:69 ] - [ DEBUG ]  Reader entry: ����   4  	 
+2017-12-10 23:45:00  [ main:69 ] - [ DEBUG ]  Find JAR URL: file:/D:/JAVA/ReStudy/JAVAEE-ReStudy/Study/frame/mybatis/mybatis-d02-01-param/out/production/mybatis-d01-base/study/project/dao/UserMapper.xml
+2017-12-10 23:45:00  [ main:70 ] - [ DEBUG ]  Not a JAR: file:/D:/JAVA/ReStudy/JAVAEE-ReStudy/Study/frame/mybatis/mybatis-d02-01-param/out/production/mybatis-d01-base/study/project/dao/UserMapper.xml
+2017-12-10 23:45:00  [ main:70 ] - [ DEBUG ]  Reader entry: <?xml version="1.0" encoding="UTF-8" ?>
+2017-12-10 23:45:00  [ main:70 ] - [ DEBUG ]  Checking to see if class study.project.dao.UserMapper matches criteria [is assignable to Object]
+2017-12-10 23:46:02  [ main:0 ] - [ DEBUG ]  Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2017-12-10 23:46:02  [ main:6 ] - [ DEBUG ]  Class not found: org.jboss.vfs.VFS
+2017-12-10 23:46:02  [ main:6 ] - [ DEBUG ]  JBoss 6 VFS API is not available in this environment.
+2017-12-10 23:46:02  [ main:6 ] - [ DEBUG ]  Class not found: org.jboss.vfs.VirtualFile
+2017-12-10 23:46:02  [ main:7 ] - [ DEBUG ]  VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2017-12-10 23:46:02  [ main:8 ] - [ DEBUG ]  Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2017-12-10 23:46:02  [ main:8 ] - [ DEBUG ]  Find JAR URL: file:/D:/JAVA/ReStudy/JAVAEE-ReStudy/Study/frame/mybatis/mybatis-d02-01-param/out/production/mybatis-d01-base/study/project/domain
+2017-12-10 23:46:02  [ main:8 ] - [ DEBUG ]  Not a JAR: file:/D:/JAVA/ReStudy/JAVAEE-ReStudy/Study/frame/mybatis/mybatis-d02-01-param/out/production/mybatis-d01-base/study/project/domain
+2017-12-10 23:46:02  [ main:40 ] - [ DEBUG ]  Reader entry: QueryVo.class
+2017-12-10 23:46:02  [ main:41 ] - [ DEBUG ]  Reader entry: User.class
+2017-12-10 23:46:02  [ main:41 ] - [ DEBUG ]  Listing file:/D:/JAVA/ReStudy/JAVAEE-ReStudy/Study/frame/mybatis/mybatis-d02-01-param/out/production/mybatis-d01-base/study/project/domain
+2017-12-10 23:46:02  [ main:41 ] - [ DEBUG ]  Find JAR URL: file:/D:/JAVA/ReStudy/JAVAEE-ReStudy/Study/frame/mybatis/mybatis-d02-01-param/out/production/mybatis-d01-base/study/project/domain/QueryVo.class
+2017-12-10 23:46:02  [ main:42 ] - [ DEBUG ]  Not a JAR: file:/D:/JAVA/ReStudy/JAVAEE-ReStudy/Study/frame/mybatis/mybatis-d02-01-param/out/production/mybatis-d01-base/study/project/domain/QueryVo.class
+2017-12-10 23:46:02  [ main:43 ] - [ DEBUG ]  Reader entry: ����   4 
+2017-12-10 23:46:02  [ main:43 ] - [ DEBUG ]  Find JAR URL: file:/D:/JAVA/ReStudy/JAVAEE-ReStudy/Study/frame/mybatis/mybatis-d02-01-param/out/production/mybatis-d01-base/study/project/domain/User.class
+2017-12-10 23:46:02  [ main:44 ] - [ DEBUG ]  Not a JAR: file:/D:/JAVA/ReStudy/JAVAEE-ReStudy/Study/frame/mybatis/mybatis-d02-01-param/out/production/mybatis-d01-base/study/project/domain/User.class
+2017-12-10 23:46:02  [ main:45 ] - [ DEBUG ]  Reader entry: ����   4 L
+2017-12-10 23:46:02  [ main:46 ] - [ DEBUG ]  Checking to see if class study.project.domain.QueryVo matches criteria [is assignable to Object]
+2017-12-10 23:46:02  [ main:47 ] - [ DEBUG ]  Checking to see if class study.project.domain.User matches criteria [is assignable to Object]
+2017-12-10 23:46:02  [ main:66 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2017-12-10 23:46:02  [ main:66 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2017-12-10 23:46:02  [ main:66 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2017-12-10 23:46:02  [ main:66 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2017-12-10 23:46:02  [ main:68 ] - [ DEBUG ]  Find JAR URL: file:/D:/JAVA/ReStudy/JAVAEE-ReStudy/Study/frame/mybatis/mybatis-d02-01-param/out/production/mybatis-d01-base/study/project/dao
+2017-12-10 23:46:02  [ main:68 ] - [ DEBUG ]  Not a JAR: file:/D:/JAVA/ReStudy/JAVAEE-ReStudy/Study/frame/mybatis/mybatis-d02-01-param/out/production/mybatis-d01-base/study/project/dao
+2017-12-10 23:46:02  [ main:69 ] - [ DEBUG ]  Reader entry: UserMapper.class
+2017-12-10 23:46:02  [ main:69 ] - [ DEBUG ]  Reader entry: UserMapper.xml
+2017-12-10 23:46:02  [ main:70 ] - [ DEBUG ]  Listing file:/D:/JAVA/ReStudy/JAVAEE-ReStudy/Study/frame/mybatis/mybatis-d02-01-param/out/production/mybatis-d01-base/study/project/dao
+2017-12-10 23:46:02  [ main:70 ] - [ DEBUG ]  Find JAR URL: file:/D:/JAVA/ReStudy/JAVAEE-ReStudy/Study/frame/mybatis/mybatis-d02-01-param/out/production/mybatis-d01-base/study/project/dao/UserMapper.class
+2017-12-10 23:46:02  [ main:70 ] - [ DEBUG ]  Not a JAR: file:/D:/JAVA/ReStudy/JAVAEE-ReStudy/Study/frame/mybatis/mybatis-d02-01-param/out/production/mybatis-d01-base/study/project/dao/UserMapper.class
+2017-12-10 23:46:02  [ main:70 ] - [ DEBUG ]  Reader entry: ����   4  	 
+2017-12-10 23:46:02  [ main:71 ] - [ DEBUG ]  Find JAR URL: file:/D:/JAVA/ReStudy/JAVAEE-ReStudy/Study/frame/mybatis/mybatis-d02-01-param/out/production/mybatis-d01-base/study/project/dao/UserMapper.xml
+2017-12-10 23:46:02  [ main:71 ] - [ DEBUG ]  Not a JAR: file:/D:/JAVA/ReStudy/JAVAEE-ReStudy/Study/frame/mybatis/mybatis-d02-01-param/out/production/mybatis-d01-base/study/project/dao/UserMapper.xml
+2017-12-10 23:46:02  [ main:71 ] - [ DEBUG ]  Reader entry: <?xml version="1.0" encoding="UTF-8" ?>
+2017-12-10 23:46:02  [ main:71 ] - [ DEBUG ]  Checking to see if class study.project.dao.UserMapper matches criteria [is assignable to Object]
+2017-12-10 23:46:44  [ main:0 ] - [ DEBUG ]  Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2017-12-10 23:46:45  [ main:7 ] - [ DEBUG ]  Class not found: org.jboss.vfs.VFS
+2017-12-10 23:46:45  [ main:7 ] - [ DEBUG ]  JBoss 6 VFS API is not available in this environment.
+2017-12-10 23:46:45  [ main:8 ] - [ DEBUG ]  Class not found: org.jboss.vfs.VirtualFile
+2017-12-10 23:46:45  [ main:8 ] - [ DEBUG ]  VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2017-12-10 23:46:45  [ main:9 ] - [ DEBUG ]  Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2017-12-10 23:46:45  [ main:9 ] - [ DEBUG ]  Find JAR URL: file:/D:/JAVA/ReStudy/JAVAEE-ReStudy/Study/frame/mybatis/mybatis-d02-01-param/out/production/mybatis-d01-base/study/project/domain
+2017-12-10 23:46:45  [ main:10 ] - [ DEBUG ]  Not a JAR: file:/D:/JAVA/ReStudy/JAVAEE-ReStudy/Study/frame/mybatis/mybatis-d02-01-param/out/production/mybatis-d01-base/study/project/domain
+2017-12-10 23:46:45  [ main:39 ] - [ DEBUG ]  Reader entry: QueryVo.class
+2017-12-10 23:46:45  [ main:40 ] - [ DEBUG ]  Reader entry: User.class
+2017-12-10 23:46:45  [ main:40 ] - [ DEBUG ]  Listing file:/D:/JAVA/ReStudy/JAVAEE-ReStudy/Study/frame/mybatis/mybatis-d02-01-param/out/production/mybatis-d01-base/study/project/domain
+2017-12-10 23:46:45  [ main:40 ] - [ DEBUG ]  Find JAR URL: file:/D:/JAVA/ReStudy/JAVAEE-ReStudy/Study/frame/mybatis/mybatis-d02-01-param/out/production/mybatis-d01-base/study/project/domain/QueryVo.class
+2017-12-10 23:46:45  [ main:41 ] - [ DEBUG ]  Not a JAR: file:/D:/JAVA/ReStudy/JAVAEE-ReStudy/Study/frame/mybatis/mybatis-d02-01-param/out/production/mybatis-d01-base/study/project/domain/QueryVo.class
+2017-12-10 23:46:45  [ main:41 ] - [ DEBUG ]  Reader entry: ����   4 
+2017-12-10 23:46:45  [ main:42 ] - [ DEBUG ]  Find JAR URL: file:/D:/JAVA/ReStudy/JAVAEE-ReStudy/Study/frame/mybatis/mybatis-d02-01-param/out/production/mybatis-d01-base/study/project/domain/User.class
+2017-12-10 23:46:45  [ main:42 ] - [ DEBUG ]  Not a JAR: file:/D:/JAVA/ReStudy/JAVAEE-ReStudy/Study/frame/mybatis/mybatis-d02-01-param/out/production/mybatis-d01-base/study/project/domain/User.class
+2017-12-10 23:46:45  [ main:44 ] - [ DEBUG ]  Reader entry: ����   4 L
+2017-12-10 23:46:45  [ main:45 ] - [ DEBUG ]  Checking to see if class study.project.domain.QueryVo matches criteria [is assignable to Object]
+2017-12-10 23:46:45  [ main:46 ] - [ DEBUG ]  Checking to see if class study.project.domain.User matches criteria [is assignable to Object]
+2017-12-10 23:46:45  [ main:64 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2017-12-10 23:46:45  [ main:64 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2017-12-10 23:46:45  [ main:65 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2017-12-10 23:46:45  [ main:65 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2017-12-10 23:46:45  [ main:67 ] - [ DEBUG ]  Find JAR URL: file:/D:/JAVA/ReStudy/JAVAEE-ReStudy/Study/frame/mybatis/mybatis-d02-01-param/out/production/mybatis-d01-base/study/project/dao
+2017-12-10 23:46:45  [ main:67 ] - [ DEBUG ]  Not a JAR: file:/D:/JAVA/ReStudy/JAVAEE-ReStudy/Study/frame/mybatis/mybatis-d02-01-param/out/production/mybatis-d01-base/study/project/dao
+2017-12-10 23:46:45  [ main:68 ] - [ DEBUG ]  Reader entry: UserMapper.class
+2017-12-10 23:46:45  [ main:68 ] - [ DEBUG ]  Reader entry: UserMapper.xml
+2017-12-10 23:46:45  [ main:68 ] - [ DEBUG ]  Listing file:/D:/JAVA/ReStudy/JAVAEE-ReStudy/Study/frame/mybatis/mybatis-d02-01-param/out/production/mybatis-d01-base/study/project/dao
+2017-12-10 23:46:45  [ main:69 ] - [ DEBUG ]  Find JAR URL: file:/D:/JAVA/ReStudy/JAVAEE-ReStudy/Study/frame/mybatis/mybatis-d02-01-param/out/production/mybatis-d01-base/study/project/dao/UserMapper.class
+2017-12-10 23:46:45  [ main:69 ] - [ DEBUG ]  Not a JAR: file:/D:/JAVA/ReStudy/JAVAEE-ReStudy/Study/frame/mybatis/mybatis-d02-01-param/out/production/mybatis-d01-base/study/project/dao/UserMapper.class
+2017-12-10 23:46:45  [ main:70 ] - [ DEBUG ]  Reader entry: ����   4  	 
+2017-12-10 23:46:45  [ main:70 ] - [ DEBUG ]  Find JAR URL: file:/D:/JAVA/ReStudy/JAVAEE-ReStudy/Study/frame/mybatis/mybatis-d02-01-param/out/production/mybatis-d01-base/study/project/dao/UserMapper.xml
+2017-12-10 23:46:45  [ main:70 ] - [ DEBUG ]  Not a JAR: file:/D:/JAVA/ReStudy/JAVAEE-ReStudy/Study/frame/mybatis/mybatis-d02-01-param/out/production/mybatis-d01-base/study/project/dao/UserMapper.xml
+2017-12-10 23:46:45  [ main:71 ] - [ DEBUG ]  Reader entry: <?xml version="1.0" encoding="UTF-8" ?>
+2017-12-10 23:46:45  [ main:71 ] - [ DEBUG ]  Checking to see if class study.project.dao.UserMapper matches criteria [is assignable to Object]
+2017-12-10 23:46:45  [ main:154 ] - [ DEBUG ]  Opening JDBC Connection
+2017-12-10 23:46:45  [ main:372 ] - [ DEBUG ]  Created connection 2056418216.
+2017-12-10 23:46:45  [ main:372 ] - [ DEBUG ]  Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@7a9273a8]
+2017-12-10 23:46:45  [ main:375 ] - [ DEBUG ]  ==>  Preparing: SELECT * FROM user WHERE sex=? AND username LIKE '%yeying%' 
+2017-12-10 23:46:45  [ main:405 ] - [ DEBUG ]  ==> Parameters: nan(String)
+2017-12-10 23:46:45  [ main:425 ] - [ DEBUG ]  <==      Total: 3
