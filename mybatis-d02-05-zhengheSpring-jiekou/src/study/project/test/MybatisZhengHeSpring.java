@@ -13,7 +13,7 @@ import java.util.List;
  */
 public class MybatisZhengHeSpring {
     /**
-     * mybatis整合spring的第一种开发模式，普通dao开发
+     * mybatis整合spring的第二种开发模式，接口代理开发开发
      */
     @Test
     public void test01(){
