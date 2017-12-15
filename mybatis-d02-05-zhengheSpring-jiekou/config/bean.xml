@@ -39,14 +39,16 @@
         <!--加载mybatis的配置文件-->
         <property name="configLocation" value="sqlMapConfig.xml"/>
     </bean>
-    <!--<bean id="userMapper" class="org.mybatis.spring.mapper.MapperFactoryBean">
-        <property name="sqlSessionFactory" ref="sqlSessionFactory"/>
-        <property name="mapperInterface" value="study.project.dao.UserMapper"/>
-    </bean>-->
+    <!--    扫描单个接口
+        <bean id="userMapper" class="org.mybatis.spring.mapper.MapperFactoryBean">
+            <property name="sqlSessionFactory" ref="sqlSessionFactory"/>
+            <property name="mapperInterface" value="study.project.dao.UserMapper"/>
+        </bean>
+    -->
+    <!--批量扫描接口-->
     <bean id="userMapper" class="org.mybatis.spring.mapper.MapperScannerConfigurer">
         <property name="sqlSessionFactoryBeanName" value="sqlSessionFactory"/>
         <property name="basePackage" value="study.project.dao"/>
     </bean>
-
     <!--事物-->
 </beans>
